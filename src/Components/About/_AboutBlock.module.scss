@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "DroidSans";
+    src: url("../../fonts/DroidSans.ttf")
+}
+
+.AboutBlock{
+    width: 39.625rem;
+    margin: 10% auto;
+    background: #1B1B1B;
+    height: 20rem;
+    border-radius: 11px;
+    padding-top: 27px;
+    padding-right: 48px;
+    padding-left: 49px;
+    .titleBlock{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 21px;
+        h2{
+            color: white;
+            font-weight: 700;
+            font-size: 1.0625rem;
+        }
+    }
+
+    p{
+        color: rgba(255, 255, 255, 0.5);
+        line-height: 22px;
+        font-size: 1rem;
+        font-family: "DroidSans";
+        letter-spacing: 0.02rem;
+    }
+
+    p:nth-child(2){
+        width: 34.9rem;
+    }
+    p:nth-child(3){
+        margin-top: 27px;
+        width: 33rem;
+    }
+
+    .contacts{
+        width: -moz-fit-content;
+        width: fit-content;
+        display: flex;
+        margin-top: 40px;
+        
+        svg{
+            margin-right: 8px;
+        }
+
+        div:nth-child(2){
+            margin-right: 25px;
+        }
+    }
+}

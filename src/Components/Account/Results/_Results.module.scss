@@ -1,0 +1,49 @@
+.Results{
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    .bestBlock{
+        display: flex;
+    }
+    .bestResults{
+        color: #FFFFFF;
+        font-size: 0.91rem;
+        margin-right: 10px;
+    }
+    .lvl{
+        color:#FFFFFF33;
+        font-size: 0.91rem;
+        line-height: 20.31px
+    }
+    .numbersBlock{
+        color: white;
+        display: flex;
+        gap: 46px;
+        .percent{
+            margin-left: 20px;
+        }
+
+        span:first-child{
+            font-weight: 700;
+            font-size: 3.63375rem;
+            letter-spacing: 0.1rem;
+        }
+        span:nth-child(2){
+            font-size: 1.51875rem;
+            position: relative;
+            bottom: 10px;
+        }
+        div:first-child{
+            display: flex;
+            flex-direction: column;
+        }
+        div:nth-child(2){
+            display: flex;
+            flex-direction: column;
+        }
+        div:nth-child(3){
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

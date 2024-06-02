@@ -1,0 +1,52 @@
+.numbersBlock{
+        color: white;
+        display: flex;
+        gap: 29px;
+        width: -moz-fit-content;
+        width: fit-content;
+        margin-left: 25px;
+        .percent{
+            margin-left: 20px;
+        }
+
+        div{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        span:first-child{
+            font-weight: 700;
+            font-size: 3.63375rem;
+            letter-spacing: 0.1rem;
+            text-align: center;
+        }
+        span:nth-child(2){
+            font-size: 1.51875rem;
+            position: relative;
+            bottom: 10px;
+            text-align: center;
+        }
+
+        div:nth-child(odd) {
+            justify-content: end;
+            span:first-child{
+                font-size: 2.79188rem;
+                letter-spacing: 0.1rem;
+                text-align: center;
+            }
+            span:nth-child(2){
+                font-size: 1.16675rem;
+                position: relative;
+                bottom: 10px;
+                text-align: center;
+            }
+        }
+}
+
+.ResultsAfterLvl{
+    display: flex;
+    position: relative;
+    right: 30px;
+    flex-direction: column;
+    align-items: center;
+}

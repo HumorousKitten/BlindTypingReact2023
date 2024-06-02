@@ -1,0 +1,22 @@
+.HeaderAccount{
+    display: flex;
+    width: 41rem;
+    color: white;
+    .data{
+        display: flex;
+        flex-direction: column;
+        margin-left: 19px;
+        div{
+            span{
+                font-weight: 700;
+                font-size: 1.625rem;
+                margin-right: 15px;
+            }
+            margin-bottom: 8px;
+        }
+        span{
+            font-size: 0.91rem;
+
+        }    
+    }
+}

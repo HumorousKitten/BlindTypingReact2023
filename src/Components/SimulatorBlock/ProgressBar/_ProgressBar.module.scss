@@ -1,0 +1,24 @@
+.TheMainestBar{
+    width: 235px;
+    background: #1B1B1B;
+    border-radius: 2.5px;
+    height: 5px;
+    margin-top: 30px;
+    margin-left: 30px;
+	position: relative;
+    .SecondBar{
+        width: 213px;
+        height: 5px;
+        background: #282828;
+        border-radius: 2.5px;
+    }
+
+	.IncreasingBar{
+		width: 0px;
+		height: 5px;
+		background: #0066FF;
+		border-radius: 2.5px;
+		position: absolute;
+		top: 0px;
+	}
+}

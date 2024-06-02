@@ -1,0 +1,26 @@
+.Usefulimgs{
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    margin-right: 35px;
+
+    svg:hover{
+        cursor: pointer;
+    }
+
+    div:first-child{
+        margin-right: 15px;
+        img:first-child{
+            margin-right: 5px;
+        }
+        position: relative;
+        bottom: 2px;
+    }
+    div:nth-child(2){
+        img:first-child{
+            margin-right: 10px;
+            position: relative;
+            bottom: 2px;
+        }
+    }
+}
